@@ -1,0 +1,43 @@
+{
+  "name": "eslint-plugin-bounded-contexts",
+  "version": "0.1.1",
+  "description": "ESLint rules for the Bounded Contexts feature-based Next.js architecture",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "nextjs",
+    "architecture",
+    "feature-based",
+    "bounded-contexts",
+    "server-components",
+    "react"
+  ],
+  "author": "Pedro Petrini Castello",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrinks/bounded-contexts.git"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/eslint-parser": "^7.28.6",
+    "@babel/preset-env": "^7.29.5",
+    "@babel/preset-react": "^7.28.5",
+    "eslint": "^8.57.1",
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
+  }
+}
